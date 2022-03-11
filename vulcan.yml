@@ -33,6 +33,11 @@ test-list: | # 테스트 리스트 커맨드 / 테스트를 하나씩 실행하�
   ./test 2
   ./test 3
   ./test 4
+  ./test 5
+  ./test 6
+  ./test 7
+  ./test 8
+  ./test 9
 test-case: 
 
 test-command: | # 테스트 실행
