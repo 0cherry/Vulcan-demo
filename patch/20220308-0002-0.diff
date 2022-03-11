@@ -1,0 +1,24 @@
+From 50af403b87da86d7750f11f5d03ba93fe9772d8f Mon Sep 17 00:00:00 2001
+From: Yeongcheol Kim <aree91@naver.com>
+Date: Tue, 8 Mar 2022 11:41:50 +0900
+Subject: [PATCH] Auto repair
+
+---
+ example.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/example.c b/example.c
+index 927aa6c..8a2112c 100644
+--- a/example.c
++++ b/example.c
+@@ -4,5 +4,5 @@ int func1(int x) {
+     if (x >= 100) { // correct code: if (x > 100) {
+         return -y;
+     }
+-    return y;
++    return y + 1;
+ }
+\ No newline at end of file
+-- 
+2.35.1.windows.2
+

@@ -1,0 +1,23 @@
+From 1a59c424eff5dc7690e2f8a05d18c835e377be94 Mon Sep 17 00:00:00 2001
+From: Yeongcheol Kim <aree91@naver.com>
+Date: Tue, 8 Mar 2022 11:45:59 +0900
+Subject: [PATCH] Auto repair
+
+---
+ example.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/example.c b/example.c
+index ded3164..42821bb 100644
+--- a/example.c
++++ b/example.c
+@@ -1,5 +1,5 @@
+ int func1(int x) {
+-    int y = 100;
++    int y = 0;
+     y = -x;
+     if (x >= 100) { // correct code: if (x > 100) {
+         return -y;
+-- 
+2.35.1.windows.2
+
