@@ -14,9 +14,7 @@ test-candidates: |
 time-out: 0
 max-patch-number : 500
 
-test-build-command: | # 테스트 빌드 커맨드 / defect4cpp 기준 meta.json의 내용이 필요
-  make clean
-  make
+test-build-command: # 테스트 빌드 커맨드 / defect4cpp 기준 meta.json의 내용이 필요
 
 coverage-build-command: | # 커버리지 빌드 커맨드 / defect4cpp 기준 meta.json의 내용이 필요(SBFL: gcov)
   make clean
@@ -35,8 +33,7 @@ test-list: | # 테스트 리스트 커맨드 / 테스트를 하나씩 실행하�
   ./test 4
 test-case: 
 
-test-command: | # 테스트 실행
-  bash -c "@testcase@"
+test-command: # 테스트 실행
 
 test-coverage-command: | # 커버리지 테스트 실행 / 테스트 대상을 입력받아서 하나씩 실행할 수 있어야 함
   bash -c "@testcase@"
