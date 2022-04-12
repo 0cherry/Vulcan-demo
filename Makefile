@@ -5,7 +5,7 @@ LDFLAGS:=
 all: test
 
 test: test1.o example.o
-	$(CC) $(CFLAGS) $(LDFLAGS) test1.o example.o -o test
+	$(CC) $(CFLAGS) test1.o example.o -o test $(LDFLAGS)
 
 example.o: example.c
 	$(CC) $(CFLAGS) -o example.o -c example.c 
