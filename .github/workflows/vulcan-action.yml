@@ -1,5 +1,5 @@
 # /.github/workflows/test-0cherry-github-action.yml
-name: Vulcan Demo
+name: vulcan-test
 
 on:
   workflow_dispatch:
