@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "example.h"
 
-int test_data[5][2] = {
+int test_data[6][2] = {
   {1, 1},
   {50, 50},
   {99, 99},
