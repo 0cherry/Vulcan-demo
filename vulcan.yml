@@ -29,7 +29,13 @@ coverage-build-command: | # 커버리지 빌드 커맨드 / defect4cpp 기준 me
 test-type: automake
 test-list: | # 테스트 리스트 커맨드 / 테스트를 하나씩 실행하기 위해 테스트 리스트를 출력해주는 내용 필요
 test-case: 
-  0 1 2 3 4 5
+  0
+  1
+  2
+  3
+  4
+  5
+  
 test-command: | # 테스트 실행
   bash -c "./test @testcase@"
 
