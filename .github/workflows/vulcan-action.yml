@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Test vulcan action
-        uses: Suresoft-GLaDOS/vulcan-action@feature-#22
+        uses: Suresoft-GLaDOS/vulcan-action@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: vulcan_target
