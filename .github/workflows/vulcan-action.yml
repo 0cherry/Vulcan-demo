@@ -7,12 +7,11 @@ on:
 
 jobs:
   vulcan:
-    runs-on: self-hosted
+    runs-on: ubuntu-20.04
 
     steps:
       - name: Test vulcan action
-        uses: Suresoft-GLaDOS/vulcan-action@main
+        uses: Suresoft-GLaDOS/vulcan-action@feature-runner-setting
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: vulcan_target
-          validator: All
