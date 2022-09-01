@@ -12,5 +12,8 @@ jobs:
     steps:
       - name: Checkout vulcan target
         uses: actions/checkout@v2
+      - name: Print env variables
+        run: export
+        shell: bash
       - name: Run vulcan action
         uses: Suresoft-GLaDOS/vulcan-action@feature-runner-setting
