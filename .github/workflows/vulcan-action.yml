@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: Test vulcan action
+      - name: Checkout vulcan target
+        uses: actions/checkout@v2
+      - name: Run vulcan action
         uses: Suresoft-GLaDOS/vulcan-action@feature-runner-setting
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: vulcan_target
