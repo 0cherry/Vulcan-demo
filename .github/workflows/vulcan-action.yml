@@ -17,3 +17,6 @@ jobs:
         shell: bash
       - name: Run vulcan action
         uses: Suresoft-GLaDOS/vulcan-action@feature-runner-setting
+      - name: Print env variables
+        run: export
+        shell: bash
