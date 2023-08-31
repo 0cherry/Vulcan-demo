@@ -8,7 +8,10 @@ on:
 jobs:
   vulcan:
     # runs-on: self-hosted
-    runs-on: 0cherry/vulcan:demo
+    # runs-on: 0cherry/vulcan:demo
+    runs-on: ubuntu-latest
+    container: 
+      image: 0cherry/vulcan:demo
 
     steps:
       - name: Checkout vulcan target
