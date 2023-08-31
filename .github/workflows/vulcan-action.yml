@@ -13,4 +13,4 @@ jobs:
       - name: Checkout vulcan target
         uses: actions/checkout@v2
       - name: Run vulcan action
-        uses: Suresoft-GLaDOS/vulcan-action@debug
+        uses: Suresoft-GLaDOS/vulcan-action@debug2
