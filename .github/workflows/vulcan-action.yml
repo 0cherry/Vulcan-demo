@@ -11,7 +11,7 @@ jobs:
     # runs-on: 0cherry/vulcan:demo
     runs-on: ubuntu-latest
     container: 
-      image: 0cherry/vulcan:demo
+      image: 0cherry/vulcan:0.9
 
     steps:
       - name: Checkout vulcan target
